@@ -1,1 +1,1 @@
-# Hackathon-de-Mujeres-por-la-IA-abierta
+# Reto-de-Mujeres-por-la-IA-abierta
