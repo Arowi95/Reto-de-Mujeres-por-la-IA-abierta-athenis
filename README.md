@@ -20,21 +20,35 @@ Reto organizado por la **Secretaría de Estado de Digitalización e Inteligencia
 Los equipos deberán:
 
 1. Realizar una **propuesta conceptual de métricas** para cuantificar la presencia de mujeres y su rol protagonista en los contenidos digitales.
-2. Construir un **sistema inteligente** capaz de rastrear vídeos, audios o textos para extraer dichas métricas.
+2. Construir un **sistema inteligente** capaz de rastrear vídeos, audios o textos para extraer dichas métricas, pudiendo elegirse una única modalidad (vídeo, audio o texto).
 3. Definir un **plan de puesta en producción**, incluyendo los permisos o acuerdos necesarios para un despliegue ético y legal.
 
 ## Recursos para los equipos
 
 ### Infraestructura de cómputo (OVHcloud)
 
-OVHcloud cede recursos de cómputo en la nube alojados en centros de datos de la UE:
+OVHcloud cede dos tipos de recursos para la realización del reto, máquinas virtuales para cómputo con GPU y AI Endpoints con acceso a distintos modelos.
+
+#### Máquinas virtuales
+
+Se facilitará a cada equipo un entorno virtual compartido para cómputo con GPU, con las siguientes características:
 
 - **Tipo de instancia:** t2-le-180
-- **GPU:** NVIDIA V100S
-- Entornos **preconfigurados y validados** por la Organización.
-- Uso exclusivo para el reto, no transferibles entre equipos y asignados de forma equitativa.
+- **GPU:** 2 NVIDIA V100S.
+- Entornos **preconfigurados** con jupyterlab.
+- Uso exclusivo para el reto, no transferibles entre equipos.
 
-> ⚠️ Las GPU V100S pueden presentar incompatibilidades con versiones recientes de algunos LLM y con determinadas precisiones numéricas. No se atenderán incidencias derivadas de instalar versiones distintas a las facilitadas.
+> ⚠️ Las GPU V100S pueden presentar incompatibilidades con versiones recientes de algunos LLM y con determinadas precisiones numéricas.
+
+#### APIs de modelos: OVHcloud AI Endpoints
+
+>  [PENDIENTE DE CONFIRMAR  el acceso a AI Endpoints.]
+
+Se facilitará a cada equipo una API KEY para utilizar el AI Endpoints de OVHcloud, inferencia serverless de modelos abiertos a través de una **API compatible con OpenAI**.
+
+- **URL base:** `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1`
+- **Catálogo de modelos:** https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- **Acceso:** uso gratuito con límites de peticiones. 
 
 ### Recursos aportados por la UPC / IDEAI
 
@@ -52,68 +66,6 @@ Jornadas formativas:
 
 Las formaciones quedarán grabadas para poder ser visualizadas por las participantes del reto posteriormente.
 
-### APIs de modelos: OVHcloud AI Endpoints
-
->  [PENDIENTE DE CONFIRMAR  el acceso a AI Endpoints.]
-
-OVHcloud AI Endpoints ofrece inferencia serverless de modelos abiertos a través de una **API compatible con OpenAI**, alojada en Europa.
-
-- **URL base:** `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1`
-- **Catálogo de modelos:** https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
-- **Acceso:** uso gratuito con límites de peticiones, o con API key para límites más altos. La API key se genera en el [OVHcloud Manager](https://ovh.com/manager) → Public Cloud → AI & Machine Learning → AI Endpoints → API keys.
-
-Al ser compatible con OpenAI, permite cumplir el requisito del reto de que la solución sea **agnóstica respecto al modelo**: basta con cambiar la URL base y el nombre del modelo para usar otro proveedor o un modelo desplegado en vuestra propia instancia.
-
-## Guía rápida de instalación
-
-### 1. Acceso al entorno de cómputo
-
-[PENDIENTE: instrucciones de acceso a las instancias que facilitará la Organización en la formación del 7 de octubre.]
-
-### 2. Preparar el entorno de Python
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install openai python-dotenv
-```
-
-### 3. Configurar las credenciales
-
-Crea un archivo `.env` en la raíz del proyecto (y añádelo a `.gitignore` para no publicarlo nunca):
-
-```bash
-OVHCLOUD_API_KEY=tu_api_key
-OVHCLOUD_BASE_URL=https://oai.endpoints.kepler.ai.cloud.ovh.net/v1
-```
-
-### 4. Primera llamada a un modelo
-
-```python
-import os
-from dotenv import load_dotenv
-from openai import OpenAI
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OVHCLOUD_API_KEY", ""),
-    base_url=os.getenv("OVHCLOUD_BASE_URL"),
-)
-
-# Consulta los modelos disponibles
-for model in client.models.list():
-    print(model.id)
-
-# Ejemplo de llamada (sustituye el modelo por uno del catálogo)
-response = client.chat.completions.create(
-    model="Meta-Llama-3_3-70B-Instruct",
-    messages=[{"role": "user", "content": "Hola, ¿qué puedes hacer?"}],
-)
-print(response.choices[0].message.content)
-```
-
-> 💡 Los nombres de los modelos pueden cambiar: consulta siempre el catálogo o usa `client.models.list()` antes de fijar uno en vuestro código.
 
 ## Requisitos de los proyectos
 
@@ -129,7 +81,7 @@ No se admitirán proyectos sin componente tecnológico significativo, sin relaci
 
 Antes del **27 de octubre de 2026 a las 23:59**:
 
-1. Repositorio público con el código, documentado y publicado bajo una licencia reconocida por la OSI o la FSF.
+1. Repositorio público con el código, documentado y publicado bajo una licencia reconocida por la OSI o la FSF y con las especificaciones del apartado de [Código Abierto](#codigo-abierto).
 2. `README.md` con descripción de la solución, instrucciones de instalación y uso, componentes de terceros y sus licencias, y hoja de ruta.
 3. Presentación `.pptx` (máx. 20 diapositivas) con métricas, datos utilizados, aproximación, resultados experimentales, demo, plan de puesta en producción, perspectiva de género, marco ético, cumplimiento normativo, riesgos y conclusiones.
 4. Vídeo explicativo de 5 minutos.
@@ -140,12 +92,13 @@ El **4 de noviembre de 2026**, al inicio de la final:
 
 La falta de cualquier entregable en plazo implica la exclusión del proceso de evaluación.
 
-## Código abierto
+## Código Abierto
 
 - El código se publicará en un repositorio público dentro de la **organización de GitHub de la Comunidad IA de Código Abierto**.
 - Licencias reconocidas por la Open Source Initiative o la Free Software Foundation.
 - El proyecto debe ser técnicamente reproducible y reutilizable por terceros.
 - Se permite software preexistente si se identifica claramente, se respeta su licencia y es compatible con la del proyecto. Solo se evaluará lo desarrollado durante el periodo del reto.
+- Se valorará positivamente el cumplimiento con las buenas prácticas indicadas en (PENDIENTE Subir ppt de JORGE y link)
 
 ## Evaluación
 
@@ -162,12 +115,6 @@ Jurado técnico (evaluación previa en remoto) y jurado de alto nivel (decisión
 - Impacto: 15 %
 - Innovación: 15 %
 - Comunicación: 10 %
-
-## Reconocimiento
-
-- **1.er puesto:** presentación de su solución en el **II Encuentro de Mujeres y Tecnología** (Madrid, 16–19 de noviembre de 2026) y sesión en Discord ante la Comunidad.
-- **2.º y 3.er puesto:** entradas para el II Encuentro de Mujeres y Tecnología y sesión en Discord ante la Comunidad.
-- **Todos los equipos:** certificado nominal de participación y difusión de resultados en la web y el Discord de la Comunidad.
 
 ## Términos y condiciones
 
