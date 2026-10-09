@@ -5,7 +5,7 @@ Reto organizado por la **Secretaría de Estado de Digitalización e Inteligencia
 ## Entidades colaboradoras
 
 - **Universitat Politècnica de Catalunya (UPC)** y su centro de investigación **IDEAI** (Intelligent Data Science and Artificial Intelligence)
-- **Col·legi Oficial d'Enginyeria en Informàtica de Catalunya (COEINF)**
+- **Col·legi Oficial d'Enginyeria en Informàtica de Catalunya (COEINF)** y su comisión de género donesCOEINF.
 - **OVHcloud**
 
 ## Objetivos del reto
@@ -19,8 +19,8 @@ Reto organizado por la **Secretaría de Estado de Digitalización e Inteligencia
 
 Los equipos deberán:
 
-1. Realizar una **propuesta conceptual de métricas** para cuantificar la presencia de mujeres y su rol protagonista en los contenidos digitales.
-2. Construir un **sistema inteligente** capaz de rastrear vídeos, audios o textos para extraer dichas métricas, pudiendo elegirse una única modalidad (vídeo, audio o texto).
+1. Realizar una **propuesta conceptual de métricas** para cuantificar la presencia de mujeres y su rol protagonista en los contenidos digitales. Por ejemplo, analizando audio cuales serian los indicadores de rol protagonista? Algunos serian hablar al principio de un acto publico, o cerrarlo.... pero puede haber muchos más. Tu equipo cómo lo va a tratar en el reto?
+2. Construir un **sistema inteligente** capaz de analizar vídeos, audios o textos para extraer dichas métricas, pudiendo elegirse una única modalidad (vídeo, audio o texto).
 3. Definir un **plan de puesta en producción**, incluyendo los permisos o acuerdos necesarios para un despliegue ético y legal.
 
 ## Recursos para los equipos
@@ -64,7 +64,7 @@ Jornadas formativas:
 - Técnicas de tratamiento de imagen y vídeo.
 - Innovación.
 
-Las formaciones quedarán grabadas para poder ser visualizadas por las participantes del reto posteriormente.
+El material de las formaciones quedará a disposición del las participantes para poder consultarlo posteriormente.
 
 
 ## Requisitos de los proyectos
