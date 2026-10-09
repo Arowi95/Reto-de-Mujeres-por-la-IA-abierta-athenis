@@ -44,7 +44,7 @@ Se facilitará a cada equipo un entorno virtual compartido para cómputo con GPU
 
 >  [PENDIENTE DE CONFIRMAR  el acceso a AI Endpoints.]
 
-Se facilitará a cada equipo una API KEY para utilizar el AI Endpoints de OVHcloud, inferencia serverless de modelos abiertos a través de una **API compatible con OpenAI**.
+Se facilitará a cada equipo un access token para utilizar el AI Endpoints de OVHcloud, inferencia serverless de modelos abiertos a través de una **API compatible con OpenAI**.
 
 - **URL base:** `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1`
 - **Catálogo de modelos:** https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
