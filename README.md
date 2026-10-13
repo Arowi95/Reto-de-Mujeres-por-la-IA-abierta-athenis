@@ -1,6 +1,6 @@
 # Reto "Mujeres por la IA Abierta"
 
-Reto organizado por la **Secretaría de Estado de Digitalización e Inteligencia Artificial (SEDIA)**, en el marco de la **Comunidad IA de Código Abierto**, para impulsar una inteligencia artificial abierta más diversa, paritaria y libre de sesgos, incorporando el talento de mujeres a su diseño y construcción desde el principio.
+Reto organizado por la **Secretaría de Estado de Digitalización e Inteligencia Artificial (SEDIA)**, en el marco de la **Comunidad IA de Código Abierto**, para impulsar una inteligencia artificial abierta más diversa, inclusiva y libre de sesgos, incorporando el talento de mujeres a su diseño y construcción desde el principio.
 
 ## Entidades colaboradoras
 
