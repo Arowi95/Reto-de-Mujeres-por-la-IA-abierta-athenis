@@ -47,31 +47,37 @@ Se facilitará a cada equipo un access token para utilizar el AI Endpoints de OV
 - **Catálogo de modelos:** https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
 - **Acceso:** uso gratuito con límites de peticiones.
 - Uso exclusivo para el reto, no transferibles entre equipos.
-- Puedes usarlo para configurar un asistente de código y para realizar tareas específicas según el modelo seleccionado. Para configurar el asistente de código con el AI Endpoint puedes seguir las instrucciones en este [link](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-code-assistant)
-
-### Recursos aportados por la UPC / IDEAI
-
-
+- Se podrá usar para configurar un asistente de código o para realizar tareas específicas según el modelo seleccionado. Para configurar el asistente de código con el AI Endpoint sigue las instrucciones en este [link](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-code-assistant)
 
 ### Formación y mentoría
 
-Jornadas formativas:
+**Jornadas formativas**:
 
-- 14 de octubre
-  * 09:30 – 10:00 | Bienvenida SEDIA e infraestructura para el reto (OVHcloud)
-  * 13:00 – 15:00 | Perspectiva de género — Karina Gibert
-- 15 de octubre
-  * 10:00 – 12:00 | Técnicas de tratamiento de voz y texto — Adrián Rodríguez Fonollosa
-- 16 de octubre
-  * 10:00 – 12:00 | Técnicas de tratamiento de imagen y vídeo — Verónica Vilaplana
-  * 16:00 – 18:00 | Marco ético — Karina Gibert
-- 17 de octubre
-  * 09:00 – 11:00 | Innovación — Montse Guardia
- 
+#### 14 de octubre
+- `09:30 – 10:00` **Bienvenida SEDIA e infraestructura para el reto** · *Organización + Entidades colaboradoras*
+- `13:00 – 15:00` **Perspectiva de género** · *Karina Gibert*
+
+#### 15 de octubre
+- `16:00 – 18:00` **Técnicas de tratamiento de voz y texto** · *Adrián Rodríguez Fonollosa*
+
+#### 16 de octubre
+- `10:00 – 12:00` **Técnicas de tratamiento de imagen y vídeo** · *Verónica Vilaplana*
+- `16:00 – 18:00` **Marco ético** · *Karina Gibert*
+
+#### 17 de octubre
+- `09:00 – 11:00` **Innovación** · *Montse Guardia*
+
 Adicionalmente se pondrá a disposición de las participantes durante el reto una **presentación sobre buenas prácticas de código abierto**.
 
 El material de las formaciones quedará a disposición de las participantes para poder consultarlo posteriormente.
 
+**Mentorías**:
+
+Varias mentoras estarán disponibles en el canal de Discord [#reto-mujeres-ia-abierta](https://discord.gg/ctcfNS9UXK) para resolver las dudas que os puedan surgir durante el desarrollo del reto.
+
+### Recursos aportados por la UPC / IDEAI
+
+[TODO]
 
 ## Requisitos de los proyectos
 
