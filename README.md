@@ -19,7 +19,7 @@ Reto organizado por la **Secretaría de Estado de Digitalización e Inteligencia
 
 Los equipos deberán:
 
-1. Realizar una **propuesta conceptual de métricas** para cuantificar la presencia de mujeres y su rol protagonista en los contenidos digitales. Por ejemplo, analizando audio cuales serian los indicadores de rol protagonista? Algunos serian hablar al principio de un acto publico, o cerrarlo.... pero puede haber muchos más. Tu equipo cómo lo va a tratar en el reto?
+1. Realizar una **propuesta conceptual de métricas** para cuantificar la presencia de mujeres y su rol protagonista en los contenidos digitales. Por ejemplo, analizando audio, ¿cuales serian los indicadores de rol protagonista? Algunos serian hablar al principio de un acto publico, o cerrarlo.... pero puede haber muchos más. ¿Tu equipo cómo lo va a tratar en el reto?
 2. Construir un **sistema inteligente** capaz de analizar vídeos, audios o textos para extraer dichas métricas, pudiendo elegirse una única modalidad (vídeo, audio o texto).
 3. Definir un **plan de puesta en producción**, incluyendo los permisos o acuerdos necesarios para un despliegue ético y legal.
 
@@ -27,15 +27,14 @@ Los equipos deberán:
 
 ### Infraestructura de cómputo (OVHcloud)
 
-OVHcloud cede dos tipos de recursos para la realización del reto, máquinas virtuales para cómputo con GPU y AI Endpoints con acceso a distintos modelos.
+OVHcloud ha cedido dos tipos de recursos para la realización del reto, máquinas virtuales para cómputo con GPU y AI Endpoints con acceso a distintos modelos.
 
 #### Máquinas virtuales
 
 Se facilitará a cada equipo un entorno virtual compartido para cómputo con GPU, con las siguientes características:
 
-- **Tipo de instancia:** t2-le-180
-- **GPU:** 2 NVIDIA V100S.
 - Entornos **preconfigurados** con jupyterlab.
+- **GPU:** 2 NVIDIA V100S.
 - Uso exclusivo para el reto, no transferibles entre equipos.
 
 > ⚠️ Las GPU V100S pueden presentar incompatibilidades con versiones recientes de algunos LLM y con determinadas precisiones numéricas.
@@ -46,7 +45,9 @@ Se facilitará a cada equipo un access token para utilizar el AI Endpoints de OV
 
 - **URL base:** `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1`
 - **Catálogo de modelos:** https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
-- **Acceso:** uso gratuito con límites de peticiones. 
+- **Acceso:** uso gratuito con límites de peticiones.
+- Uso exclusivo para el reto, no transferibles entre equipos.
+- Puedes usarlo para configurar un asistente de código y para realizar tareas específicas según el modelo seleccionado. Para configurar el asistente de código con el AI Endpoint puedes seguir las instrucciones en este [link](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-code-assistant)
 
 ### Recursos aportados por la UPC / IDEAI
 
@@ -56,11 +57,18 @@ Se facilitará a cada equipo un access token para utilizar el AI Endpoints de OV
 
 Jornadas formativas:
 
-- Formación técnica sobre la infraestructura de OVHcloud.
-- Perspectiva de género y marco ético.
-- Técnicas de tratamiento de voz y texto.
-- Técnicas de tratamiento de imagen y vídeo.
-- Innovación.
+- 14 de octubre
+  * 09:30 – 10:00 | Bienvenida SEDIA e infraestructura para el reto (OVHcloud)
+  * 13:00 – 15:00 | Perspectiva de género — Karina Gibert
+- 15 de octubre
+  * 10:00 – 12:00 | Técnicas de tratamiento de voz y texto — Adrián Rodríguez Fonollosa
+- 16 de octubre
+  * 10:00 – 12:00 | Técnicas de tratamiento de imagen y vídeo — Verónica Vilaplana
+  * 16:00 – 18:00 | Marco ético — Karina Gibert
+- 17 de octubre
+  * 09:00 – 11:00 | Innovación — Montse Guardia
+ 
+Adicionalmente se pondrá a disposición de las participantes durante el reto una **presentación sobre buenas prácticas de código abierto**.
 
 El material de las formaciones quedará a disposición de las participantes para poder consultarlo posteriormente.
 
@@ -84,7 +92,7 @@ Antes del **30 de octubre de 2026 a las 08:00**:
 3. Presentación `.pptx` (máx. 20 diapositivas) con métricas, datos utilizados, aproximación, resultados experimentales, demo, plan de puesta en producción, perspectiva de género, marco ético, cumplimiento normativo, riesgos y conclusiones.
 4. Vídeo explicativo de 5 minutos.
 
-El **4 de noviembre de 2026**, al inicio de la final:
+Previo al inicio del evento del **4 de noviembre de 2026**:
 
 5. Versión corta del `.pptx` para una presentación de 5 minutos con demo.
 
@@ -96,7 +104,7 @@ La falta de cualquier entregable en plazo implica la exclusión del proceso de e
 - Licencias reconocidas por la Open Source Initiative o la Free Software Foundation.
 - El proyecto debe ser técnicamente reproducible y reutilizable por terceros.
 - Se permite software preexistente si se identifica claramente, se respeta su licencia y es compatible con la del proyecto. Solo se evaluará lo desarrollado durante el periodo del reto.
-- Se valorará positivamente el cumplimiento con las buenas prácticas indicadas en (PENDIENTE Subir ppt de JORGE y link)
+- Se valorará positivamente el cumplimiento con las buenas prácticas indicadas en la presentación sobre código abierto que se os facilitará a lo largo del reto.
 
 ## Evaluación
 
