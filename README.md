@@ -42,8 +42,6 @@ Se facilitará a cada equipo un entorno virtual compartido para cómputo con GPU
 
 #### APIs de modelos: OVHcloud AI Endpoints
 
->  [PENDIENTE DE CONFIRMAR  el acceso a AI Endpoints.]
-
 Se facilitará a cada equipo un access token para utilizar el AI Endpoints de OVHcloud, inferencia serverless de modelos abiertos a través de una **API compatible con OpenAI**.
 
 - **URL base:** `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1`
@@ -52,7 +50,7 @@ Se facilitará a cada equipo un access token para utilizar el AI Endpoints de OV
 
 ### Recursos aportados por la UPC / IDEAI
 
-[PENDIENTE DE CONFIRMAR]
+
 
 ### Formación y mentoría
 
@@ -64,7 +62,7 @@ Jornadas formativas:
 - Técnicas de tratamiento de imagen y vídeo.
 - Innovación.
 
-El material de las formaciones quedará a disposición del las participantes para poder consultarlo posteriormente.
+El material de las formaciones quedará a disposición de las participantes para poder consultarlo posteriormente.
 
 
 ## Requisitos de los proyectos
@@ -79,7 +77,7 @@ No se admitirán proyectos sin componente tecnológico significativo, sin relaci
 
 ## Entregables
 
-Antes del **27 de octubre de 2026 a las 23:59**:
+Antes del **30 de octubre de 2026 a las 08:00**:
 
 1. Repositorio público con el código, documentado y publicado bajo una licencia reconocida por la OSI o la FSF y con las especificaciones del apartado de [Código Abierto](#codigo-abierto).
 2. `README.md` con descripción de la solución, instrucciones de instalación y uso, componentes de terceros y sus licencias, y hoja de ruta.
