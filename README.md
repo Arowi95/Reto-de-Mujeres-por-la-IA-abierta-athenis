@@ -19,9 +19,11 @@ Reto organizado por la **Secretaría de Estado de Digitalización e Inteligencia
 
 Los equipos deberán:
 
-1. Realizar una **propuesta conceptual de métricas** para cuantificar la presencia de mujeres y su rol protagonista en los contenidos digitales. Por ejemplo, analizando audio, ¿cuales serian los indicadores de rol protagonista? Algunos serian hablar al principio de un acto publico, o cerrarlo.... pero puede haber muchos más. ¿Tu equipo cómo lo va a tratar en el reto?
+1. Realizar una **propuesta conceptual de métricas** para cuantificar la presencia de mujeres y su rol protagonista en los contenidos digitales. Por ejemplo, analizando audio, ¿cuales serian los indicadores de rol protagonista? Algunos serian hablar al principio de un acto publico, o cerrarlo.... pero puede haber muchos más. ¿Tu equipo cómo lo va a tratar en el reto? Si analizas vídeo, ¿cómo detectas el rol protagonista? ¿La persona ubicada en el centro de la imagen es la protagonista?
 2. Construir un **sistema inteligente** capaz de analizar vídeos, audios o textos para extraer dichas métricas, pudiendo elegirse una única modalidad (vídeo, audio o texto).
 3. Definir un **plan de puesta en producción**, incluyendo los permisos o acuerdos necesarios para un despliegue ético y legal.
+
+Los datos que utilicéis para desarrollar y validar vuestro reto son de libre elección. Cada equipo podrá trabajar con los datos de su preferencia, aunque se darán algunas pistas por donde buscar.
 
 ## Recursos para los equipos
 
@@ -47,37 +49,44 @@ Se facilitará a cada equipo un access token para utilizar el AI Endpoints de OV
 - **Catálogo de modelos:** https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
 - **Acceso:** uso gratuito con límites de peticiones.
 - Uso exclusivo para el reto, no transferibles entre equipos.
-- Se podrá usar para configurar un asistente de código o para realizar tareas específicas según el modelo seleccionado. Para configurar el asistente de código con el AI Endpoint sigue las instrucciones en este [link](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-code-assistant)
+- Se podrá usar para configurar un asistente de código o para realizar tareas específicas según el modelo seleccionado. Para configurar el asistente de código con el AI Endpoint sigue las instrucciones en este [link](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-code-assistant).
+
+> ⚠️ **NOTA DE USO RESPONSABLE**: Recomendamos que dispongáis de un entorno de trabajo en local donde desarrollar el código y verificar que funciona sobre una muestra muy pequeña de rápido tratamiento con el fin de ganar tiempo y ahorrar recursos de infraestructura en tareas de depuración de código, y dejar el uso del las máquinas virtuales con GPU para los trabajos intensivos que realmente lo requieran (entrenamiento o fine tunning de modelos, evaluación del modelo sobre un corpus de datos grande, etc.). Recordad que por otro lado podéis utilizar los AI Eindpoints como asistente de código en vuestro entorno local.
+
+Las credenciales para acceder a estos recursos se os enviarán por email individualmente a cada equipo.
 
 ### Formación y mentoría
 
 **Jornadas formativas**:
 
 #### 14 de octubre
-- `09:30 – 10:00` **Bienvenida SEDIA e infraestructura para el reto** · *Organización + Entidades colaboradoras*
-- `13:00 – 15:00` **Perspectiva de género** · *Karina Gibert*
+- `09:30 – 10:00` **Bienvenida SEDIA e infraestructura para el reto** · *SEDIA*
+- `13:00 – 15:00` **Perspectiva de género** · *Karina Gibert, cofundadora de IDEAI y catedrática de Inteligencia Artificial de la UPC. Decana del COEINF*
 
 #### 15 de octubre
-- `16:00 – 18:00` **Técnicas de tratamiento de voz y texto** · *Adrián Rodríguez Fonollosa*
+- `16:00 – 18:00` **Técnicas de tratamiento de voz y texto** · *Adrián Rodríguez Fonollosa, catedrático de procesamiento de la voz de la UPC, e investigador de IDEAI*
 
 #### 16 de octubre
-- `10:00 – 12:00` **Técnicas de tratamiento de imagen y vídeo** · *Verónica Vilaplana*
-- `16:00 – 18:00` **Marco ético** · *Karina Gibert*
+- `10:00 – 12:00` **Técnicas de tratamiento de imagen y vídeo** · *Verónica Vilaplana, profesora de la UPC e investigadora de IDEAI*
+- `16:00 – 18:00` **Marco ético** · *Karina Gibert, cofundadora de IDEAI y catedrática de Inteligencia Artificial de la UPC. Decana del COEINF*
 
 #### 17 de octubre
-- `09:00 – 11:00` **Innovación** · *Montse Guardia*
+- `09:00 – 11:00` **Innovación** · *Montse Guardia, Presidenta del Consejo Social de la UPC*
 
-Adicionalmente se pondrá a disposición de las participantes durante el reto una **presentación sobre buenas prácticas de código abierto**.
+Adicionalmente se pondrá a disposición de las participantes durante el reto a través de este repositorio:
+ - una **presentación sobre buenas prácticas de código abierto**
+ - una **presentación sobre la infraestructura disponible de OVHcloud**.
 
-El material de las formaciones quedará a disposición de las participantes para poder consultarlo posteriormente.
+Podréis encontrar los materiales de las formaciones realizadas por los equipos de IDEAI-UPC y de donesCOEINf en el siguiente enlace: 
+- https://enginyeriainformatica.cat/pagines_sense_capcal/reto-mujeres-por-la-ia-abierta/
+- La contraseña os la haremos llegar por email
+
+Se subirá el material correspondiente después de cada sesión. Cuando el profesor lo haya autorizado encontraréis, además de las transparencias el (o los) vídeos de la formación.
+Asimismo, encontraréis en ese enlace algunas pistas sobre datos adecuados para desarrollar el reto.
 
 **Mentorías**:
 
-Varias mentoras estarán disponibles en el canal de Discord [#reto-mujeres-ia-abierta](https://discord.gg/ctcfNS9UXK) para resolver las dudas que os puedan surgir durante el desarrollo del reto.
-
-### Recursos aportados por la UPC / IDEAI
-
-[TODO]
+Varias mentoras estarán disponibles en el canal de Discord #reto-mujeres-ia-abierta para resolver las dudas que os puedan surgir durante el desarrollo del reto.
 
 ## Requisitos de los proyectos
 
