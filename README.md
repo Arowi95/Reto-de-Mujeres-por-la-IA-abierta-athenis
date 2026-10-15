@@ -73,16 +73,17 @@ Las credenciales para acceder a estos recursos se os enviarán por email individ
 #### 17 de octubre
 - `09:00 – 11:00` **Innovación** · *Montse Guardia, Presidenta del Consejo Social de la UPC*
 
-Adicionalmente se pondrá a disposición de las participantes durante el reto a través de este repositorio:
+Adicionalmente se pondrá a disposición de las participantes durante el reto:
  - una **presentación sobre buenas prácticas de código abierto**
  - una **presentación sobre la infraestructura disponible de OVHcloud**.
 
-Podréis encontrar los materiales de las formaciones realizadas por los equipos de IDEAI-UPC y de donesCOEINf en el siguiente enlace: 
-- https://enginyeriainformatica.cat/pagines_sense_capcal/reto-mujeres-por-la-ia-abierta/
-- La contraseña os la haremos llegar por email
+Cuando la persona responsable de la formación lo haya autorizado, encontraréis los vídeos en el drive que os compartiremos por correo.
 
-Se subirá el material correspondiente después de cada sesión. Cuando el profesor lo haya autorizado encontraréis, además de las transparencias el (o los) vídeos de la formación.
-Asimismo, encontraréis en ese enlace algunas pistas sobre datos adecuados para desarrollar el reto.
+Adicionalmente, podréis encontrar los materiales de las formaciones realizadas por los equipos de IDEAI-UPC y de donesCOEINf en el siguiente enlace: 
+- https://enginyeriainformatica.cat/pagines_sense_capcal/reto-mujeres-por-la-ia-abierta/
+- La contraseña os la haremos llegar por correo
+
+Se subirán aquí las transparencias correspondientes después de cada sesión. Asimismo, encontraréis en ese enlace algunas pistas sobre datos adecuados para desarrollar el reto.
 
 **Mentorías**:
 
