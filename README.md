@@ -77,13 +77,13 @@ Adicionalmente se pondrá a disposición de las participantes durante el reto:
  - una **presentación sobre buenas prácticas de código abierto**
  - una **presentación sobre la infraestructura disponible de OVHcloud**.
 
-Cuando la persona responsable de la formación lo haya autorizado, encontraréis los vídeos en el drive que os compartiremos por correo.
+Cuando la persona responsable de la formación lo haya autorizado, podréis encontrar las grabaciones de la sesión en el drive que os compartiremos por correo.
 
 Adicionalmente, podréis encontrar los materiales de las formaciones realizadas por los equipos de IDEAI-UPC y de donesCOEINf en el siguiente enlace: 
 - https://enginyeriainformatica.cat/pagines_sense_capcal/reto-mujeres-por-la-ia-abierta/
 - La contraseña os la haremos llegar por correo
 
-Se subirán aquí las transparencias correspondientes después de cada sesión. Asimismo, encontraréis en ese enlace algunas pistas sobre datos adecuados para desarrollar el reto.
+En esta web se subirán las transparencias correspondientes después de cada sesión. Asimismo, encontraréis en ese enlace algunas pistas sobre datos adecuados para desarrollar el reto.
 
 **Mentorías**:
 
