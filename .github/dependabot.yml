@@ -17,7 +17,7 @@ updates:
     commit-message:
       prefix: "chore(ci)"
 
-  # Añadir cuando exista frontend/package.json:
+  # Add when frontend/package.json exists:
   # - package-ecosystem: "npm"
   #   directory: "/frontend"
   #   target-branch: "develop"

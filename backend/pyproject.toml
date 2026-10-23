@@ -1,7 +1,7 @@
 [project]
 name = "athenis-backend"
 version = "0.1.0"
-description = "Backend del reto Mujeres por la IA Abierta"
+description = "Backend for the Women in Open AI challenge"
 requires-python = ">=3.11"
 dependencies = []
 

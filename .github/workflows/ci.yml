@@ -17,7 +17,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # Se omite el job hasta que exista el proyecto frontend
+      # Skip the frontend steps until the frontend project exists
       - name: Detect frontend project
         id: detect
         run: |
@@ -25,7 +25,7 @@ jobs:
             echo "exists=true" >> "$GITHUB_OUTPUT"
           else
             echo "exists=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::frontend/package.json no existe, se omiten los pasos del frontend"
+            echo "::notice::frontend/package.json does not exist, skipping frontend steps"
           fi
 
       - name: Setup pnpm
